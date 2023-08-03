@@ -1,0 +1,96 @@
+
+.styling {
+background-color: rgb(99 246 222);
+width: 100px
+
+}
+
+.divcoloring{
+    height: auto
+}
+.x1{
+    color: white;
+    white-space: pre-wrap;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 12px;
+    height: 550px;
+    overflow-y: auto;
+}
+/* Styles for the chat log messages */
+.message {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+  /* Styles for user messages */
+
+  /* Styles for ChatGPT messages */
+.chatgpt {
+    background-color: rgba(128, 128, 128, 0.251); /* Light gray for ChatGPT messages */
+}
+  /* Styles for the message sender */
+.sender {
+    font-weight: bold;
+}
+  /* Styles for the message content */
+.message{
+    display: flex; /* Use flexbox layout */
+    align-items: flex-start;
+}
+.left-image{
+    width: 30px; /* Set the width of the image as desired */
+    height: 30px; /* Set the height of the image as desired */
+    margin-right: 20px;
+}
+.message-text {
+    flex:1;
+}
+button {
+    background-color: transparent; /* Blue for the search button */
+    color: #fff;
+    border: none;
+    padding: 2px 3px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.buttons-container {
+    /* Your styles for buttons container */
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;  
+  }
+
+  .card {
+    width: 300px;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card h2 {
+    font-size: 14px;
+    margin-bottom: 10px;  
+  }
+
+  .card p {
+    font-size: 16px;
+    color: #555555;
+  }
+    
